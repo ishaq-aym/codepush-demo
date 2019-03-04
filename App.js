@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Code Push </Text>
+        <Text style={styles.welcome}>Welcome to Code Push version 2  </Text>
         <Button
           title='Check for Updates'
           onPress={this.checkForUpdates}
